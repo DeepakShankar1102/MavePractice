@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [testng]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="Uname" value="demo"/>
+    <parameter name="Pwd" value="1234"/>
+    <classes>
+      <class name="ApplicationTest.Payments">
+        <methods>
+          <include name="PaymentPage"/>
+        </methods>
+      </class> <!-- ApplicationTest.Payments -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [testng] -->
